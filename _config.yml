@@ -17,17 +17,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-title: Your awesome title
-email: your-email@example.com
+domain: vivienleonard.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://vivienleonard.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /scrumwings/      # place folder name if the site is served in a subfolder
+title: ScrumWings
+email: vivien.leonard@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Scrum but with clear rules. A ScrumWings is a small team of 3 to 5 people who work together on a project.
+baseurl: "" # the subpath of your site, e.g. /blogs
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  vivienleonard
 
 # Build settings
 theme: minima
